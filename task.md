@@ -1,3 +1,4 @@
+task-1
 1- Create a remote rero
 2- Pull the remo to your local system/vm
 3- Create a new branch dev
@@ -12,3 +13,11 @@
 12- resolve all conflicts
 13- Push the branch agann
 14- Merge it after creating a pull request 
+
+
+task-2
+
+- create a repo.
+- add some code or content to the repo
+- create github actions
+- push changes to the repo
