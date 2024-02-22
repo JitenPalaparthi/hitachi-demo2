@@ -21,3 +21,8 @@ task-2
 - add some code or content to the repo
 - create github actions
 - push changes to the repo
+
+task-3
+
+  - create a github action
+  - when ever an issue is created, send a message to the telegram bot
