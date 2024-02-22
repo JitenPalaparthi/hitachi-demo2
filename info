@@ -1,0 +1,14 @@
+Workflow
+    actions
+        action
+            event
+                types of events
+        
+    Jobs
+        job
+            runs-on (Where the job has to run)
+        Steps
+            execute another Workflow
+            Run shell script
+            Perform some operation
+
