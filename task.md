@@ -26,3 +26,13 @@ task-3
 
   - create a github action
   - when ever an issue is created, send a message to the telegram bot
+
+task-4
+ 
+  - create a repo in github.com
+  - create an action, on push main
+  - when ever something gets pushed to the repo , it will automatically push to another repo.
+
+  - git remote add upstream <linktorepo2>
+  - git push upstream main 
+  - developer token 
