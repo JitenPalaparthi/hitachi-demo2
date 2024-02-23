@@ -9,13 +9,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v3
-
             - name: Use secrets
               run: echo ${{secrets.HITACHI_TOKEN}}
 
-            - name: copy to new repo
-              run: |
-                #- add a remote repo.
-                git remote add upstream https://${{secrets.HITACHI_TOKEN}}@github.com/JitenPalaparthi/hitachi-demo-3.git
-                git push upstream main
+            # - name: copy to new repo
+            #   run: |
+            #     #- add a remote repo.
+            #     git remote add upstream https://${{secrets.HITACHI_TOKEN}}@github.com/JitenPalaparthi/hitachi-demo-3.git
+            #     git push upstream main
 
