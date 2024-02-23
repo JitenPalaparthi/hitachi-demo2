@@ -15,7 +15,7 @@ jobs:
 
             - name: copy to new repo
               run: |
-                #- add a remote repo
+                #- add a remote repo.
                 git remote add upstream https://${{secrets.HITACHI_TOKEN}}@github.com/JitenPalaparthi/hitachi-demo-3.git
                 git push upstream main
 
